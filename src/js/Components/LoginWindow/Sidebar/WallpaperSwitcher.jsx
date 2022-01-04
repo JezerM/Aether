@@ -109,6 +109,7 @@ class WallpaperSwitcher extends React.Component {
     let preloadedIndex = nextIndex(newIndex);
     let preloadedWallpaper = wallpapers[preloadedIndex];
 
+    console.log({newIndex, newWallpaper});
     this.setWallpaper(newWallpaper, preloadedWallpaper);
 
     switcher.index = newIndex;
