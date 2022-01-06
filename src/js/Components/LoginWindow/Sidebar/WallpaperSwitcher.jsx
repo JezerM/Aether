@@ -232,7 +232,7 @@ class WallpaperSwitcher extends React.Component {
     let classes = [ 'distro-logo' ];
 
     classes.push(cxs({
-      "background-image": `url(${ this.props.distroImage }) !important`,
+      "background-image": `url("${ this.props.distroImage }") !important`,
     }));
 
     if (this.props.desaturate) {
